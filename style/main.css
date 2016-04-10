@@ -1,0 +1,241 @@
+body {
+  background-color: #002233;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/*   
+Spinnaker (logo)
+Title: Helvetica (or bold) in caps
+Body text: Proxima Nova
+
+*/
+
+#main {
+ background-color: #bbbb99;
+ padding-bottom: 1px;
+}
+
+/* HEADER NAVIGATION */
+
+#header {
+  height: 117px;
+  max-height: 117px;
+  width: 100%;
+  background-color: #002233;
+  margin-bottom: 2px;
+}
+
+#header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#header li {
+  display: inline;
+  padding-right: 50px;
+}
+
+#header li a {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #bbbb99;
+  text-decoration: none;
+}
+
+#header li a:hover {
+  color: #DEB100;
+}
+
+#navigation {
+  padding-top: 60px;
+  float: right;
+}
+
+#logo_container {
+  padding: 15px;
+  padding-top: 8px;
+  float: left;
+}
+
+#logo {
+  width: 150px;
+  height: 97px;
+}
+
+/* HOMEPAGE HERO */
+
+#hero {
+  background-image: url('../images/hero.jpg');
+  min-height: 600px;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+}
+
+#hero_content {
+  background-color:rgba(255, 255, 255, 0.75);
+  width: 50%;
+  margin-left: 80px;
+  border-radius: 5px;
+  color: #666666;
+  padding: 25px;
+}
+
+span.section-heading {
+  font-size: 36px;
+  font-weight: 900px;
+}
+
+#hero_content span.cta-heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#cta_container {
+  margin-top: 20px;
+  background-color:rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  height: 90px;
+  padding: 15px;
+  color: #112222;
+}
+
+#cta_container a {
+  color: #000000;
+}
+
+#cta_container div { 
+  width: 50%; 
+}
+
+button.cta-button {
+  margin-top: 10px;
+  background-color: #cccc88;
+  background: -webkit-linear-gradient(left top, #cccc88, #dddd99); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #cccc88, #dddd99); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #cccc88, #dddd99); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #cccc88, #dddd99);
+  border: 1px solid #998866;
+  border-radius: 5px;
+  padding: 8px;
+  width: 110px;
+}
+
+button.cta-button:hover {
+  background-color: #ddddaa;
+}
+
+/* FOOTER NAVIGATION */
+
+#footer {
+  margin-top: 1px;
+  height: 77px;
+  width: 100%;
+  background-color: #336666;
+  text-align: right;
+}
+
+#footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer li {
+  display: inline;
+}
+
+#footer li + li:before {
+  content: " | ";
+  color: #FFFFFF;
+  padding: 0 20px;
+}
+
+#footer li a {
+  font-family: 'Helvetica Bold', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#footer li a:hover {
+  color: #DEB100;
+}
+
+#copyright {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+  float: left;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+#footer_navigation {
+  float: right;
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+/* SHARED SUBPAGE */
+
+#container_main {
+  width: 100%;
+  background-color: #EFEFEF;
+  margin: auto;
+}
+
+#content_main {
+  border: 1px solid #bbbb99;
+  border-top: 0px;
+  border-bottom: 0px;
+  display: inline-block;
+  width: 976px;
+  min-height: 600px;
+  background-color: #FFFFFF;
+  text-align: left;
+}
+
+#content_main .section-heading {
+  font-size: 24px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+}
+
+div.dark-section {
+  padding: 40px;
+  padding-bottom: 15px;
+  background-color: #AADDEE;
+}
+
+div.white-section {
+  padding: 40px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #bbbb99;
+}
+
+span.subheading {
+  font-size: 24px;
+}
+
+/* ABOUT */
+
+img.photo {
+  border: 1px solid #CCC;
+  float: left;
+  margin: 0 10px 10px 0px;
+}
