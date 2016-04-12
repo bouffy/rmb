@@ -79,11 +79,11 @@ Body text: Proxima Nova
 }
 
 #hero_content {
-  background-color:rgba(255, 255, 255, 0.75);
+  background-color:rgba(0, 34, 45, 0.75);
   width: 50%;
   margin-left: 80px;
   border-radius: 5px;
-  color: #666666;
+  color: #EFEFEF;
   padding: 25px;
 }
 
@@ -92,18 +92,11 @@ span.section-heading {
   font-weight: 900px;
 }
 
-#hero_content span.cta-heading {
-  font-size: 18px;
-  font-weight: 600;
-}
-
 #cta_container {
   margin-top: 20px;
-  background-color:rgba(255, 255, 255, 0.5);
   border-radius: 5px;
-  height: 90px;
   padding: 15px;
-  color: #112222;
+  color: #CCCCCC;
 }
 
 #cta_container a {
@@ -124,7 +117,7 @@ button.cta-button {
   border: 1px solid #998866;
   border-radius: 5px;
   padding: 8px;
-  width: 110px;
+  width: 180px;
 }
 
 button.cta-button:hover {
@@ -213,19 +206,27 @@ button.cta-button:hover {
 #content_main .section-heading {
   font-size: 24px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #000000;
 }
 
 div.dark-section {
   padding: 40px;
   padding-bottom: 15px;
-  background-color: #AADDEE;
+  background-color: BBCCDD;
 }
 
 div.white-section {
   padding: 40px;
   padding-bottom: 15px;
   border-bottom: 1px solid #bbbb99;
+}
+
+div.image-section {
+  background-image: url('../images/contact.jpg');
+  height: 600px;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
 }
 
 span.subheading {
@@ -237,5 +238,5 @@ span.subheading {
 img.photo {
   border: 1px solid #CCC;
   float: left;
-  margin: 0 10px 10px 0px;
+  margin: 0 10px 0 0;
 }
